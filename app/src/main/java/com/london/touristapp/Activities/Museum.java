@@ -49,8 +49,9 @@ public class Museum extends AppCompatActivity
         if(getSupportActionBar()!=null)
         {
             getSupportActionBar().setTitle("Museum");   //Set title on toolbar
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Enable backbutton
-            getSupportActionBar().setDisplayShowHomeEnabled(true); //Show backbutton on toolbar
+           
+           //a back button is required here
+           
         }
         pb=new ProgressDialog(this);
 
